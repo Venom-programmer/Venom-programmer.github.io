@@ -1,45 +1,454 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">3D Printer</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<!--My mom made most of the front end-->
+<head>
+	<!--<img src="3dprinter.jpg" alt="Sample 3D printer">-->
+</head>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" bgcolor="#F1F1F1">
+            <tr>
+                <td align="center" valign="top">
+
+                	<table border="0" cellpadding="0" cellspacing="0" width="800" bgcolor="#FFFFFF">
+
+                        <!-- Spacer -->
+                        <tr align="center">
+                            <td width="800">
+                                <table border="0" cellpadding="0" cellspacing="0" width="800" bgcolor="#f1f1f1">
+
+                                    <tr>
+                                        <td width="800" height="15">&nbsp;</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- End Spacer -->
+                 		<!-- Spacer -->
+                        <tr align="center">
+                            <td width="800">
+                                <table border="0" cellpadding="0" cellspacing="0" width="800" bgcolor="#FFFFFF">
+
+                                    <tr>
+                                        <td width="800" height="10"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- End Spacer -->
+                       	<!-- Text Area -->
+                         <tr align="center">
+                         	<td width="800">
+                                <table border="0" cellpadding="0" cellspacing="0" width="800">
+
+									<!-- Quote Area -->
+									<tr>
+										<!-- Left Padding -->
+										<td width="10"></td>
+										<!-- End Left Padding -->
+										<!-- Content Area -->
+										<td width="780" valign="top" bgcolor="#EFEEDE">
+											<table border="0" cellpadding="0" cellspacing="0" width="780">
+												<tr>
+													<td width="780">
+														<table border="0" cellpadding="0" cellspacing="0" width="780">
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="760" style="font-family: Arial; font-size: 13px; line-height: 18px; font-style: italic">
+																<span style="font-family: Arial; font-size: 20px; line-height: 30px; color: #702082; font-weight: bold; text-align: center;">The 3D Printer Selector</span>
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<!-- End Content Area -->
+										<!-- Right Padding -->
+										<td width="10"></td>
+										<!-- End Right Padding -->
+									</tr>
+									<!-- End Quote Area -->
+
+									<!-- Spacer -->
+									<tr>
+										<td width="800" colspan="3" height="10"></td>
+									</tr>
+									<!-- End Spacer -->
+
+									<!-- Note Area -->
+									<tr>
+										<!-- Left Padding -->
+										<td width="10"></td>
+										<!-- End Left Padding -->
+
+										<!-- Content Area -->
+										<td width="780" valign="top" bgcolor="#d8d7df">
+											<table border="0" cellpadding="0" cellspacing="0" width="780">
+												<tr>
+													<td width="780">
+														<table border="0" cellpadding="0" cellspacing="0" width="780">
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="760" style="font-family: Arial; font-size: 13px; line-height: 18px;">
+																	This website provides information on different 3D printers available. It will also help you to select the right printer for your needs.<br><br>
+                                                                    <strong> Instructions</strong><br><br>
+                                                                    <ul>
+                                                                    <li> Answer the questions below</li>
+                                                                    <li> Select RUN </li>
+                                                                    <li> See the recommendation</li>
+                                                                    <li> You can also select a Printer from the list to see its key features </li>
+                                                                    </ul>
+
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<!-- End Content Area -->
+
+										<!-- Right Padding -->
+										<td width="10"></td>
+										<!-- End Right Padding -->
+									</tr>
+									<!-- End Note Area -->
+
+									<!-- Spacer -->
+									<tr>
+										<td width="800" colspan="3" height="10"></td>
+									</tr>
+									<!-- End Spacer -->
+
+									<!-- Blue Area -->
+									<tr>
+										<!-- Left Padding -->
+										<td width="10"></td>
+										<!-- End Left Padding -->
+
+										<!-- Content Area -->
+										<td width="780" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" width="780">
+												<tr>
+													<td width="780" bgcolor="#00a0d2">
+														<table border="0" cellpadding="0" cellspacing="0" width="780">
+															<tr>
+																<td width="780" colspan="3" height="5"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="760" style="font-family: Arial; font-size: 18px; line-height: 24px; font-weight: bold; color: #FFFFFF;">
+																	Questions
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="5"></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td width="780" bgcolor="#c8d7df">
+														<table border="0" cellpadding="0" cellspacing="0" width="780">
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="760" style="font-family: Arial; font-size: 13px; line-height: 18px;">
+																	<span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #00a0d2; font-weight: bold;">What are you looking for?</span><br />
+                                  <ul>
+                                    <li>
+                                      <p><strong>Price</strong><span style="color: #000000;"></p>
+                                      <label for="question1"><input id="question1" type="checkbox" name="price"><strong>200-600</strong><span style="color: #000000;"></label>
+                                      <label for="question2"><input id="question2" type="checkbox" name="price"><strong>600-1000</strong><span style="color: #000000;"></label>
+                                      <label for="question3"><input id="question3" type="checkbox" name="price"><strong>1000-2000</strong><span style="color: #000000;"></label>
+                                      <label for="question4"><input id="question4" type="checkbox" name="price"><strong>price doesn't matter</strong><span style="color: #000000;"></label>
+                                    </li>
+                                    <li>
+                                      <p><strong>What are you going to use it for</strong><span style="color: #000000;"></p>
+                                      <label for="question1"><input id="question1" type="checkbox" name="use"><strong>making parts</strong><span style="color: #000000;"></label>
+                                      <label for="question1"><input id="question1" type="checkbox" name="use"><strong>high resolution</strong><span style="color: #000000;"></label>
+                                      <label for="question1"><input id="question1" type="checkbox" name="use"><strong>edjucation</strong><span style="color: #000000;"></label>
+                                    </li>
+                                    <li>
+                                      <p><strong>something</strong><span style="color: #000000;"></p>
+                                    </li>
+
+
+
+
+
+                                  </ul>
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<!-- End Content Area -->
+
+
+										<!-- Right Padding -->
+										<td width="10"></td>
+										<!-- End Right Padding -->
+									</tr>
+									<!-- End Blue Area -->
+
+									<!-- Spacer -->
+									<tr>
+										<td width="800" colspan="3" height="10"></td>
+									</tr>
+									<!-- End Spacer -->
+
+									<!-- Two Column Area -->
+									<tr>
+										<!-- Left Padding -->
+										<td width="10"></td>
+										<!-- End Left Padding -->
+
+										<!-- Content Area -->
+										<td width="780" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" width="780">
+												<tr>
+													<td width="385" bgcolor="#00c389">
+														<table border="0" cellpadding="0" cellspacing="0" width="385">
+															<tr>
+																<td width="385" colspan="3" height="5"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="365" style="font-family: Arial; font-size: 18px; line-height: 24px; font-weight: bold; color: #FFFFFF;">
+																	Results
+																</td>
+																<td width="10" ></td>
+															</tr>
+															<tr>
+																<td width="385" colspan="3" height="5"></td>
+															</tr>
+														</table>
+													</td>
+													<!-- End Column 1 -->
+
+													<td width="10"></td>
+
+													<!-- Column 2 -->
+													<td width="385" bgcolor="#c110a0">
+														<table border="0" cellpadding="0" cellspacing="0" width="385">
+															<tr>
+																<td width="385" colspan="3" height="5"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="365" style="font-family: Arial; font-size: 18px; line-height: 24px; font-weight: bold; color: #FFFFFF;">
+																	List of Printers
+																</td>
+																<td width="10" ></td>
+															</tr>
+															<tr>
+																<td width="385" colspan="3" height="5"></td>
+															</tr>
+
+														</table>
+													</td>
+													<!-- End Column 2 -->
+
+												</tr>
+												<tr>
+													<!-- Column 1 -->
+													<td width="385" bgcolor="#d9e6dc" valign="top">
+														<table border="0" cellpadding="0" cellspacing="0" width="385">
+															<tr>
+																<td width="385" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="365" style="font-family: Arial; font-size: 13px; line-height: 18px;">
+																	<span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #00c389; font-weight: bold;">Here's the printer that will best meet your needs:</span><br />
+
+                                	xxxxxx
+
+
+
+
+
+
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="385" colspan="3" height="10"></td>
+															</tr>
+														</table>
+													</td>
+													<!-- End Column 1 -->
+
+													<td width="10"></td>
+
+													<!-- Column 2 -->
+													<td width="385" bgcolor="#ddd0cf" valign="top">
+														<table border="0" cellpadding="0" cellspacing="0" width="385">
+															<tr>
+																<td width="385" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="365" style="font-family: Arial; font-size: 13px; line-height: 18px;">
+																	<span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #c110a0; font-weight: bold;">QIDI Tech X-Max
+
+                                    <!--<a href="https://www.amazon.com/Large-Intelligent-Industrial-Grade-Printer/dp/B07JBXVCWG/ref=sxin_2_ac_d_pm?ac_md=6-2-QWJvdmUgJDEsMTAw-ac_d_pm&cv_ct_cx=3d+printers&dchild=1&keywords=3d+printers&pd_rd_i=B07JBXVCWG&pd_rd_r=d3724bc2-1c86-4017-bbf4-e9587a66941f&pd_rd_w=miTrA&pd_rd_wg=lS0FD&pf_rd_p=4ad7736a-c9f7-4bcd-8a16-bd943c26821c&pf_rd_r=3PM7ZWR2DE1JSY2MS8R4&psc=1&qid=1588114451&sr=1-3-22d05c05-1231-4126-b7c4-3e7a9c0027d0" target="_blank">QIDI Tech X-Max</a>-->
+
+                                  </span><br />
+
+
+
+    	                            <span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #c110a0; font-weight: bold;">Printer 2 Name
+                                  </span><br />
+
+
+
+                                  <span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #c110a0; font-weight: bold;">Printer 3 Name
+                                  </span><br />
+
+
+                                  <span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #c110a0; font-weight: bold;">Printer 4 Name
+                                  </span><br />
+
+                              </td>
+																<td width="10" ></td>
+															</tr>
+															<tr>
+																<td width="385" colspan="3" height="10"></td>
+															</tr>
+														</table>
+													</td>
+													<!-- End Column 2 -->
+												</tr>
+											</table>
+										</td>
+										<!-- End Content Area -->
+
+										<!-- Right Padding -->
+										<td width="10"></td>
+										<!-- End Right Padding -->
+									</tr>
+									<!-- End Two Column Area -->
+
+									<!-- Spacer -->
+									<tr>
+										<td width="800" colspan="3" height="10"></td>
+									</tr>
+									<!-- End Spacer -->
+
+									<!-- Grey Area -->
+									<tr>
+										<!-- Left Padding -->
+										<td width="10"></td>
+										<!-- End Left Padding -->
+
+										<!-- Content Area -->
+										<td width="780" bgcolor="#00a0d2;" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" width="780">
+												<tr>
+													<td width="780" bgcolor="#63666A">
+														<table border="0" cellpadding="0" cellspacing="0" width="780">
+															<tr>
+																<td width="780" colspan="3" height="5"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="760" style="font-family: Arial; font-size: 18px; line-height: 24px; font-weight: bold; color: #FFFFFF;">
+																	Other Useful Information
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="5"></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td width="780" bgcolor="#d8dbd8">
+														<table border="0" cellpadding="0" cellspacing="0" width="780">
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+															<tr>
+																<td width="10"></td>
+																<td width="760" style="font-family: Arial; font-size: 13px; line-height: 18px;">
+																	<span style="font-family: Arial; font-size: 15px; line-height: 20px; color: #63666a; font-weight: bold;">Types of Material</span><br />
+																	<ul>
+                                    <li> PLA </li>
+                                    <li> Wood </li>
+                                  </ul>
+
+																</td>
+																<td width="10"></td>
+															</tr>
+															<tr>
+																<td width="780" colspan="3" height="10"></td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<!-- End Content Area -->
+
+
+										<!-- Right Padding -->
+										<td width="10"></td>
+										<!-- End Right Padding -->
+									</tr>
+									<!-- End Grey Area -->
+
+									<!-- Spacer -->
+									<tr>
+										<td width="800" colspan="3" height="10"></td>
+									</tr>
+									<!-- End Spacer -->
+								</table>
+							</td>
+						</tr>
+                        <!-- End Text Area -->
+
+
+
+                	</table>
+
+                </td> <!-- End centre align TD -->
+			</tr>
+        </table> <!-- End wrapper table -->
+
+</body>
+
 </html>
