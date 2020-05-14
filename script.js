@@ -45,6 +45,15 @@ function myFunction() {
   } else if (q4 == true && q5 == true) {
     document.getElementById('o').href = 'markforged_2.html';
     document.getElementById('o').innerHTML = 'Markforged Mark two';
+  } else if (q3 == true && q6 == true) {
+    document.getElementById('o').href = 'prusa_SL1.html';
+    document.getElementById('o').innerHTML = 'Prusa SL1';
+  } else if (q2 == true && q5 == true) {
+    document.getElementById('o').href = 'prusa_i3.html';
+    document.getElementById('o').innerHTML = 'Prusa i3 mk35';
+  } else if (q2 == true && q7 == true) {
+    document.getElementById('o').href = 'prusa_i3.html';
+    document.getElementById('o').innerHTML = 'Prusa i3 mk35';
   } else {
     document.getElementById('o').href = '';
     document.getElementById('o').innerHTML = '';
